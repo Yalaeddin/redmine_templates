@@ -1,7 +1,7 @@
 require_dependency 'issue_query'
 
 class IssueQuery < Query
-  self.available_columns << QueryColumn.new(:issue_template, :sortable => true, :default_order => 'asc')
+  self.available_columns << QueryColumn.new(:issue_template, :sortable => false, :default_order => 'asc')
 end
 
 module PluginRedmineTemplates
