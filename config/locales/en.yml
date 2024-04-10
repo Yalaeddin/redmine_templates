@@ -65,6 +65,7 @@ en:
   label_numeric: Numeric
   label_display_in_range: Range display
   field_integer_field: "La valeur du champ entier"
+  label_field_required: Required field
   new_section_options:
     - ['New Instruction', 2]
     - ['New Long Text Field', 1]
