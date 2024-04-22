@@ -20,7 +20,7 @@ Redmine::Plugin.register :redmine_templates do
        :caption => :label_issue_templates,
        :html => {:class => 'icon'}
 end
-
+   
 Redmine::MenuManager.map :project_menu do |menu|
   menu.push :new_issue_sub, {:controller => 'issues', :action => 'new', :copy_from => nil},
             :param => :project_id,
